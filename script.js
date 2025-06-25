@@ -29,7 +29,7 @@ shufButt.addEventListener("click", () => {
      alert("still here");
     });
 
-
+  
 
 
 promptBox.appendChild(content);
@@ -39,5 +39,23 @@ promptBox.appendChild(h3);
 divTest.appendChild(DivChild);
 divTest.appendChild(DivChild2);
 promptBox.appendChild(divTest);
+
+// the JavaScript file
+// METHODS 2 & 3
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+  }
+    btn.addEventListener("click", function (e) {
+    e.target.style.background = "blue";
+     
+});
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert(button.id);
+    })
+})
 
 
